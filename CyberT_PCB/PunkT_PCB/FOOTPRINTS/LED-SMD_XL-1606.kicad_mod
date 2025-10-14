@@ -1,0 +1,164 @@
+(footprint "LED-SMD_XL-1606"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LED1"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "06a527cc-af44-4327-bd54-407856599e16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_L1.7-W1.1-R-RD_GREEN"
+		(at 0.111 -2.903 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e21ef47-2e08-4e1e-acbb-519931510c66")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.152)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e5ba230-e02a-4484-855a-30d794a9961d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f43ff0-3d35-4c45-8c8c-cbe216d53cf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 0.25)
+		(end 0.3 0.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fc75fbc-00ce-463a-927b-d38f96805b74")
+	)
+	(fp_line
+		(start 0.3 -0.35)
+		(end -0.3 -0.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72b12038-8951-4723-8d14-d9bc1a6c5b35")
+	)
+	(fp_poly
+		(pts
+			(xy -0.7 -0.35) (xy -0.7 -0.7) (xy -0.6 -0.8) (xy 0.55 -0.8) (xy 0.65 -0.7) (xy 0.65 -0.35) (xy 0.55 -0.35)
+			(xy 0.55 -0.65) (xy 0.5 -0.7) (xy -0.55 -0.7) (xy -0.6 -0.65) (xy -0.6 -0.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "4af1fb8c-13fa-4e9c-a27b-839afd698f80")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c2f7fb5-bb21-4b05-9bbb-47716d27c0cd")
+	)
+	(fp_line
+		(start -1.25 0.5)
+		(end -1.25 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5959e046-4551-44bc-9724-c00d89b02ab9")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7944ba53-8f15-47c3-8cd9-1ae11d7b84a0")
+	)
+	(fp_line
+		(start 1.25 0.5)
+		(end -1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c99cd29-cd7d-4d50-8a77-034a7b740cc4")
+	)
+	(fp_text user "+"
+		(at 1.2 -0.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38c4ab4a-b455-4542-912a-223063400c53")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.13)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d14dcfe8-5e50-4951-9332-7e0f9217df00")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "21fc74a6-5920-40d4-954a-d851aad7006b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/FOOTPRINTS/SIDE LED.STEP"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

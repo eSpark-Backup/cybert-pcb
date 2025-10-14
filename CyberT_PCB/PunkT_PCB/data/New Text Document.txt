@@ -1,0 +1,25 @@
+support for CM4 and CM5
+BMS upgrade to handle CM5 3-4A current
+Change HDMI connector to mini HDMI?
+
+
+
+move LCD display FFC to top side, under the display
+
+Modify the current model
+Power issue fix, support for CM5
+2x USB Type A ports (if we have a spare port, it could be a solder pad)
+PCIE port
+Display dimming button
+Colored battery status LED ( LED that lights up to the right side?)
+Move Pi status LED to the edge (side lighting LED)
+Display FPC can be on the other side, under the screen (close the cutout)
+MicroSD can be on the other side under the screen
+Right speaker wired to the bottom (speaker holes would be great, but not necessary if no space)
+Pi LED indicators/ status to be at the top edge (LED facing up)
+Camera connector can be horizontal or placed lower or on the other side under the screen, height for this connector Is like the screen I think
+5V solder pad at the bottom
+Will share an updated stamp for the back, with credits to you and zitao
+
+
+https://github.com/ZitaoTech/HackberryPiCM5/blob/main/Hardware/Schematic_HackberryPi_CM5_Q20.pdf

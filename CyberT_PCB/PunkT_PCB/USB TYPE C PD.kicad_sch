@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f4be0d4c-ad81-407e-8b8b-46b1e3c822b7")
+	(paper "A3")
+	(title_block
+		(title "PUNK-T")
+		(date "2024-11-29")
+		(rev "A")
+		(comment 1 "WWW.CEYNETICS.COM")
+	)
+	(lib_symbols)
+)
